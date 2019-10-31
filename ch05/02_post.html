@@ -2,15 +2,13 @@
 <meta charset="utf-8">
 <html>
 <head>
-    <title>Get 방식</title>
+    <title>POST 방식</title>
 </head>
 <body>
-    <h2>GET 방식으로 데이터 전송</h2>
-    <form action="01_getdata.jsp" method="get">
+    <h2>POST 방식으로 데이터 전송</h2>
+    <form action="02_postdata.jsp" method="POST">
         <p>이름 : <input type="text" name="name"></p>
         <p>전공 : <input type="text" name="major"></p>
-        <h3>0~100 범위에서 원하는 지점을 선택하세요.</h3>
-        <input type="range" name="point" min="0" max="100">
         <p></p>
         <input type="submit" value="전송">
         <input type="reset" value="다시작성">
